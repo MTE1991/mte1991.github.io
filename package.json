@@ -2,7 +2,7 @@
   "name": "portfolio-mte",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mte1991.github.io/portfolio-mte",
+  "homepage": "https://mte1991.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
