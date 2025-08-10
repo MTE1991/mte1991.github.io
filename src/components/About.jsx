@@ -1,3 +1,5 @@
+import srcCodeImg from '../assets/source_code.jpg'; // Import the image
+
 const About = () => {
   return (
     <section id="about" className="py-20 bg-white">
@@ -5,15 +7,15 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text">About Me</h2>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-in">
-            <img src="../assets/img/source_code.jpg" alt="About" className="rounded-lg shadow-xl" />
+            <img src={srcCodeImg} alt="About" className="rounded-lg shadow-xl" />
           </div>
           <div className="fade-in">
             <h3 className="text-2xl font-semibold mb-4 text-gray-800">Versatile Developer</h3>
-            <p className="text-gray-600 mb-4">
+            <p className="text-amber-50 mb-5">
               I'm a multi-platform developer with experience in game development, web applications, 
               and desktop software. I enjoy solving complex problems across different domains.
             </p>
-            <p className="text-gray-600 mb-6">
+            <p className="text-amber-50 mb-5">
               My passion lies in creating efficient, well-structured code and exploring new technologies 
               that push the boundaries of what's possible.
             </p>
