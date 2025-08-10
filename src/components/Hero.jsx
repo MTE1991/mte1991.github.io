@@ -12,6 +12,11 @@ const Hero = () => {
             <div className="text-2xl md:text-3xl mb-6 h-10">
               <span className="typing-animation">Software Developer</span>
             </div>
+            <blockquote className="mb-8 text-lg italic text-gray-600">
+              "Time is one of the few things that man cannot influence. It gives each of us a beginning and an end. And this makes us question how we use what comes between. We all have a desire to create something that will show we were here, and did something of value. To create something timeless."
+              <br />
+              <span className="text-gray-600">― Ferdinand Porsche</span>
+            </blockquote>
             <p className="mb-8 text-lg text-gray-300">
               I create functional software solutions across multiple platforms. 
               Passionate about game development, web applications, and data visualization.
@@ -42,7 +47,7 @@ const Hero = () => {
           <div className="md:w-1/2 flex justify-center">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
-                <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
+                <img src='../assets/img/mtekleel.jpg' alt="Profile" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-black rounded-full p-4 shadow-lg">
                 <i className="fas fa-code text-white text-2xl"></i>

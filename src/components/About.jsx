@@ -5,7 +5,7 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text">About Me</h2>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-in">
-            <img src="https://picsum.photos/seed/mtekleel-about/600/400.jpg" alt="About" className="rounded-lg shadow-xl" />
+            <img src="../assets/img/source_code.jpg" alt="About" className="rounded-lg shadow-xl" />
           </div>
           <div className="fade-in">
             <h3 className="text-2xl font-semibold mb-4 text-gray-800">Versatile Developer</h3>
