@@ -1,4 +1,4 @@
-import mtekleel from '../assets/img/mtekleel.jpg';
+import profileImage from '../assets/img/mtekleel.jpg'; // Import the image
 
 const Hero = () => {
   return (
@@ -42,7 +42,7 @@ const Hero = () => {
           <div className="md:w-1/2 flex justify-center">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
-                <img src="{mtekleel}" alt="Profile" className="w-full h-full object-cover" />
+                <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-black rounded-full p-4 shadow-lg">
                 <i className="fas fa-code text-white text-2xl"></i>
